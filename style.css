@@ -1,0 +1,72 @@
+.body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+
+form{
+    margin:10rem;
+    margin-left: 30rem;
+    border: 1px solid black;
+    /* text-align: center; */
+    background-color: aqua;
+    width:500px;
+    height:fit-content;
+    box-sizing: border-box;
+}
+
+form h2{
+    text-align: center;
+}
+
+input{
+    display: block;
+    margin: 10px;
+    width:75%;
+    font-size: medium;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+label{
+    margin: 10px;
+    text-align: left;
+}
+
+#btn{
+    margin:30px;
+    margin-left: 150px;
+    
+}
+
+button{
+    border-radius: 10px;
+    font-size: medium;
+    padding: 10px 15px;
+    background-color: white;
+    box-shadow: black;
+}
+
+#input .error{
+    color: red;
+    padding-left: 10px;
+    padding-bottom:10px ;
+}
+
+#input .success input{
+    border-color: black;
+}
+
+#input .error input{
+    border-color: red;
+}
+
+@media screen and (max-width: 488px){
+    #form{
+        margin: 30px;
+        margin-top: 80px;
+    }
+
+    
+}
